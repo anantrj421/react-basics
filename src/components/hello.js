@@ -2,6 +2,9 @@
 import Student from "./student";
 import User from "./user";
 import Person from "./Person";
+import Name from "./name"
+import Count from "./count";
+import Form from "./Form";
 function hello() {
     const studentData1 = {
         name: 'Alex',
@@ -16,9 +19,12 @@ function hello() {
     var statusValue = 1;
     return(
         <div className="test">
-            <Student data={studentData1}/>
+            {/* <Student data={studentData1}/>
             <User status={statusValue}/>
-            <Person/>
+            <Person/> */}
+            {/* <Name/> */}
+            {/* <Count/> */}
+            <Form/>
         </div>
     );
 }
